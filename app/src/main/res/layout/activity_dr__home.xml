@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/dr_drawer"
+    tools:context=".Dr_Home"
+    tools:openDrawer="start"
+    android:background="@color/white">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dr_toolbar"
+            app:title="Dr.BOT a ChatBot"
+            android:background="#A0F6E9"
+            app:titleTextColor="@color/black"
+            />
+
+        <FrameLayout
+            android:id="@+id/dr_container"
+            android:layout_width="match_parent"
+            android:layout_height="674dp"
+            android:layout_below="@+id/dr_toolbar"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp" />
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/dr_navmenu"
+        app:menu="@menu/dr_iconmenu"
+        app:headerLayout="@layout/navheader"
+        android:layout_gravity="start"
+        />
+
+</androidx.drawerlayout.widget.DrawerLayout>

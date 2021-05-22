@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DRBOT</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="Specialist">
+        <item>Casual Doctor</item>
+        <item>Child Specialist</item>
+        <item>Dentist</item>
+        <item>Eye Specialist</item>
+        <item>Skin Specialist</item>
+        <item>Physiotherapist</item>
+    </string-array>
+
+</resources>

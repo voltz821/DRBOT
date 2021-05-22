@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "699880708546",
+    "project_id": "drbotmain",
+    "storage_bucket": "drbotmain.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699880708546:android:f5954722d2cfff8ef79e5b",
+        "android_client_info": {
+          "package_name": "com.example.drbot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699880708546-f4pt3u0od6f4tkp7ak8okk5k51a1k3lp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1-4S0JFIE22_C7qIZWgTgXzz-tppX4MQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699880708546-f4pt3u0od6f4tkp7ak8okk5k51a1k3lp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
